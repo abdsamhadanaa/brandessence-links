@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Brand Essence | Links</title>
+  <meta name="description" content="We build strategic brands from the essence out — identity, communication, and performance marketing that drive real growth." />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" href="icon.png" />
+  <meta property="og:title" content="Brand Essence" />
+  <meta property="og:description" content="Branding & Marketing Agency" />
+  <meta property="og:image" content="icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #000000;
+      --ink: #ffffff;
+      --muted: #a3a3a3;
+      --card: #1a1a1a;
+      --line: #2a2a2a;
+      --peach: #F8C794;
+      --rose: #F5A3A3;
+      --sky: #A7D8DE;
+      --lilac: #CBB7F6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'Manrope', system-ui, sans-serif;
+      display: flex;
+      justify-content: center;
+      padding: max(48px, env(safe-area-inset-top)) 16px max(32px, env(safe-area-inset-bottom));
+      -webkit-font-smoothing: antialiased;
+    }
+    main {
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100%;
+    }
+    .logo { width: 180px; height: auto; margin-bottom: 20px; }
+    .tagline {
+      text-align: center;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.6;
+      max-width: 320px;
+      margin-bottom: 36px;
+    }
+    .bar { display: flex; gap: 6px; margin-bottom: 36px; }
+    .bar span { width: 28px; height: 4px; border-radius: 2px; }
+    nav { width: 100%; display: flex; flex-direction: column; gap: 14px; }
+    a.link {
+      --accent: var(--peach);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 18px 20px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      color: var(--ink);
+      text-decoration: none;
+      transition: transform .15s ease, border-color .15s ease, background .15s ease;
+    }
+    a.link:hover, a.link:focus-visible { border-color: var(--accent); transform: translateY(-2px); outline: none; }
+    a.link:active { transform: scale(.98); }
+    .ico {
+      flex: none;
+      width: 44px; height: 44px;
+      border-radius: 12px;
+      display: grid; place-items: center;
+      background: var(--accent);
+      color: #000;
+    }
+    .ico svg { width: 22px; height: 22px; }
+    .txt { flex: 1; min-width: 0; }
+    .txt strong {
+      display: block;
+      font-family: 'Big Shoulders Text', sans-serif;
+      font-size: 22px;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      line-height: 1.1;
+    }
+    .txt small { color: var(--muted); font-size: 13px; }
+    .arrow { color: var(--muted); transition: color .15s ease, transform .15s ease; }
+    a.link:hover .arrow { color: var(--accent); transform: translateX(3px); }
+    footer { margin-top: auto; padding-top: 48px; color: #555; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="logo-white.png" alt="Brand Essence" />
+    <p class="tagline">We build strategic brands from the essence out.</p>
+    <div class="bar" aria-hidden="true">
+      <span style="background:var(--peach)"></span>
+      <span style="background:var(--rose)"></span>
+      <span style="background:var(--sky)"></span>
+      <span style="background:var(--lilac)"></span>
+    </div>
+
+    <nav>
+      <a class="link" style="--accent:var(--peach)" href="https://brandessenceme.com/" target="_blank" rel="noopener">
+        <span class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </span>
+        <span class="txt"><strong>Website</strong><small>brandessenceme.com</small></span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link" style="--accent:var(--rose)" href="https://www.instagram.com/brandessence_/" target="_blank" rel="noopener">
+        <span class="ico">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </span>
+        <span class="txt"><strong>Instagram</strong><small>@brandessence_</small></span>
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="link" style="--accent:var(--sky)" href="https://www.linkedin.com/company/brand_essence" target="_blank" rel="noopener">
+        <span class="ico">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3zM9.5 9.75h3.8v1.5h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1v6.45h-4v-5.72c0-1.36-.03-3.12-1.9-3.12-1.9 0-2.2 1.49-2.2 3.02v5.82h-4z"/></svg>
+        </span>
+        <span class="txt"><strong>LinkedIn</strong><small>Brand Essence</small></span>
+        <span class="arrow">→</span>
+      </a>
+    </nav>
+
+    <footer>© Brand Essence</footer>
+  </main>
+</body>
+</html>
